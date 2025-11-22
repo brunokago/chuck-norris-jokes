@@ -8,7 +8,7 @@ export default function Header() {
           {APP_LOGO && (
             <img src={APP_LOGO} alt="Logo" className="h-8 w-8" />
           )}
-          <h1 className="text-3xl font-bold">{APP_TITLE}</h1>
+          <h1 className="text-3xl font-bold">Chuck Norris Jokes</h1>
         </div>
       </div>
     </header>
