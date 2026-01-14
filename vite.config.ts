@@ -9,7 +9,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
-  base: '/chuck-norris-jokes/',
+  base: '/chuck-norris-jokes/index.html',
   plugins,
   resolve: {
     alias: {
